@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Robotics Club Registration Form</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		body{
+			background-image: url('https://i.pinimg.com/originals/6c/f5/7a/6cf57a35e1163b30d3d6e8b45f0468be.gif');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+		form{
+			background-color: whitesmoke;
+			width: 1000px;
+			box-shadow: 5px 5px 5px rgba(0, 0, 0,);
+			margin: auto;
+			padding: 15px;
+			border: 3px;
+		}
+		h1{
+			font-family: monospace;
+			color: black;
+			background: white;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center;">Robotics Club Registration Form</h1>
+	<div class="container">
+		<form>
+		<div class="row">
+			<div class="col-md-6">Name:<br><input type="text"></div>
+			<div class="col-md-6">Age:<br><input type="text"></div>
+			<div class="col-md-6">Email Address:<br><input type="text"></div>
+			<div class="col-md-6">Phone Number:<br><input type="text"></div>
+			<p>Preferred Robotic Topics<p>
+			<input type="radio" id="programming" name="Programming">
+			<label for="programming">Programming</label><br>
+			<input type="radio" id="electronics" name="electronics">
+			<label for="electronics">Electronics</label><br>
+			<input type="radio" id="mechanical" name="mechanical">
+			<label for="mechanical">Mechanical Design</label><br>
+			<p>Robotic Experiencce Level<p>
+			<input type="radio" id="beginner" name="beginner">
+			<label for="beginner">Beginner</label><br>
+			<input type="radio" id="intermediate" name="intermediate">
+			<label for="intermediate">Intermediate</label><br>
+			<input type="radio" id="advanced" name="advanced">
+			<label for="advanced">Advanced</label><br>
+
+			<label for="Project">Preferred Robotics Project</label><br>
+			<select id="Project" name="Project">
+			<option value="PD">Preferred</option>
+			<option value="RS">Robotics</option>
+			<option value="PT">Project</option>
+			</select><br>
+
+			<label for="Interest">Statement of interest</label>
+			<br>
+			<textarea rows="4" cols="100"></textarea>
+		</div>
+	</form>
+</div>
+
+
+</body>
+</html>
